@@ -1,0 +1,60 @@
+MIDEAST_CE:
+  path: "./data"
+
+  dropout: 0.1 # dropout for GNN msg passing
+  self_loop: True
+  skip_connect: false # whether to use skip connect in a RGCN Unit
+  h_dim: 200 # hidden dim
+  n_bases: 100 # number of weight blocks for each relation
+  n_layers: 2 # number of propagation layers
+
+  n_epochs: 30 # number of training epochs
+  patience: 5 # early stop patience
+  lr: 0.001 # learning rate
+  wd: 1.0e-5 # weight decay
+  grad_norm: 1.0 # norm to clip gradient to
+  hit_ks: [1, 3, 10]
+
+  test_interval: 1 # perform evaluation every n epochs
+  comp: "mult"
+  decoder_name: "convtranse" # decoder
+  encoder_name: "uvrgcn" # options: uvrgcn, lightgcn
+  input_dropout: 0.1 # input dropout in decoder
+  hidden_dropout: 0.1 # hidden dropout in decoder
+  feat_dropout: 0.1 # feat dropout in decoder
+
+  local_hist_len: 5
+  global_hist_len: 5
+  local_only: False
+  global_only: False
+
+
+GDELT_CE:
+  path: "./data"
+
+  dropout: 0.1 # dropout for GNN msg passing
+  self_loop: True
+  skip_connect: false # whether to use skip connect in a RGCN Unit
+  h_dim: 200 # hidden dim
+  n_bases: 100 # number of weight blocks for each relation
+  n_layers: 1 # number of propagation layers
+
+  n_epochs: 30 # number of training epochs
+  patience: 5 # early stop patience
+  lr: 1.0e-4 # learning rate
+  wd: 5.0e-6 # weight decay
+  grad_norm: 1.0 # norm to clip gradient to
+  hit_ks: [1, 3, 10]
+
+  test_interval: 1 # perform evaluation every n epochs
+  comp: "mult"
+  decoder_name: "convtranse" # decoder
+  encoder_name: "uvrgcn" # options: uvrgcn, lightgcn
+  input_dropout: 0.1 # input dropout in decoder
+  hidden_dropout: 0.1 # hidden dropout in decoder
+  feat_dropout: 0.1 # feat dropout in decoder
+
+  local_hist_len: 10
+  global_hist_len: 10
+  local_only: False
+  global_only: False

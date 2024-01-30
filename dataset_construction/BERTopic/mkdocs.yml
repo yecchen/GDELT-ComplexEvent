@@ -1,0 +1,132 @@
+site_name: BERTopic
+repo_url: https://github.com/MaartenGr/BERTopic
+site_url: https://maartengr.github.io/BERTopic/
+site_description: Leveraging BERT and a class-based TF-IDF to create easily interpretable topics.
+site_author: Maarten P. Grootendorst
+use_directory_urls: false
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - The Algorithm: algorithm/algorithm.md
+  - Getting Started:
+      - getting_started/quickstart/quickstart.md
+      - Topic Visualization: getting_started/visualization/visualization.md
+      - Topic Reduction: getting_started/topicreduction/topicreduction.md
+      - Topic Representation: getting_started/topicrepresentation/topicrepresentation.md
+      - Search Topics: getting_started/search/search.md
+      - Parameter tuning: getting_started/parameter tuning/parametertuning.md       
+      - Outlier reduction: getting_started/outlier_reduction/outlier_reduction.md       
+      - Serialization: getting_started/serialization/serialization.md       
+      - Tips & Tricks: getting_started/tips_and_tricks/tips_and_tricks.md       
+      - Sub-models:
+        - Embeddings: getting_started/embeddings/embeddings.md
+        - Dimensionality Reduction: getting_started/dim_reduction/dim_reduction.md
+        - Clustering: getting_started/clustering/clustering.md
+        - Vectorizers: getting_started/vectorizers/vectorizers.md
+        - c-TF-IDF: getting_started/ctfidf/ctfidf.md
+        - (Optional) Representation: getting_started/representation/representation.md
+        - (Optional) Multi-Aspect: getting_started/multiaspect/multiaspect.md
+      - Variations:
+        - Dynamic Topic Modeling: getting_started/topicsovertime/topicsovertime.md
+        - Guided Topic Modeling: getting_started/guided/guided.md
+        - Hierarchical Topic Modeling: getting_started/hierarchicaltopics/hierarchicaltopics.md
+        - Manual Topic Modeling: getting_started/manual/manual.md
+        - Multimodal Topic Modeling: getting_started/multimodal/multimodal.md
+        - Online Topic Modeling: getting_started/online/online.md
+        - Semi-supervised Topic Modeling: getting_started/semisupervised/semisupervised.md
+        - Supervised Topic Modeling: getting_started/supervised/supervised.md
+        - Topic Distributions: getting_started/distribution/distribution.md
+        - Topics per Class: getting_started/topicsperclass/topicsperclass.md
+  - FAQ: faq.md
+  - Use Cases: usecases.md
+  - API:
+      - BERTopic: api/bertopic.md
+      - Sub-models:
+        - Backends:
+          - Base: api/backends/base.md
+          - Word Doc: api/backends/word_doc.md
+          - OpenAI: api/backends/openai.md
+          - Cohere: api/backends/cohere.md
+        - Dimensionality Reduction:
+          - Base: api/dimensionality/base.md
+        - Clustering:
+          - Base: api/cluster/base.md
+        - Vectorizers:
+          - cTFIDF: api/ctfidf.md
+          - OnlineCountVectorizer: api/onlinecv.md
+        - Topic Representation:
+          - Base: api/representation/base.md
+          - MaximalMarginalRelevance: api/representation/mmr.md
+          - KeyBERT: api/representation/keybert.md
+          - PartOfSpeech: api/representation/pos.md
+          - Text Generation:
+            - 🤗 Transformers: api/representation/generation.md
+            - LangChain: api/representation/langchain.md
+            - Cohere: api/representation/cohere.md
+            - OpenAI: api/representation/openai.md
+          - Zero-shot Classification: api/representation/zeroshot.md
+      - Plotting:
+        - Barchart: api/plotting/barchart.md
+        - Documents: api/plotting/documents.md
+        - DTM: api/plotting/dtm.md
+        - Hierarchical documents: api/plotting/hierarchical_documents.md
+        - Hierarchical topics: api/plotting/hierarchy.md
+        - Distribution: api/plotting/distribution.md
+        - Heatmap: api/plotting/heatmap.md
+        - Term Scores: api/plotting/term.md
+        - Topics: api/plotting/topics.md
+        - Topics per Class: api/plotting/topics_per_class.md
+  - Changelog: changelog.md
+
+plugins:
+  - mkdocstrings:
+      watch:
+        - bertopic
+  - search
+  - social
+copyright: Copyright &copy; 2023 Maintained by <a href="https://github.com/MaartenGr">Maarten</a>.
+
+theme:
+  custom_dir: images/
+  name: material
+  icon:
+    logo: material/library
+  font:
+    text: Ubuntu
+    code: Ubuntu Mono
+  favicon: icon.png
+  logo: img/icon.png
+  feature:
+    tabs: true  
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+    - content.code.copy
+  palette:
+  - media: "(prefers-color-scheme: light)"
+    scheme: black
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: black
+    toggle:
+      icon: material/weather-night
+      name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - toc:
+      permalink: true

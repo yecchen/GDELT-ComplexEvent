@@ -1,0 +1,358 @@
+{
+    "Make public statement": {
+        "Decline comment": [],
+        "Make pessimistic comment": [],
+        "Make optimistic comment": [],
+        "Consider policy option": [],
+        "Acknowledge or claim responsibility": [],
+        "Reject accusation, deny responsibility": [],
+        "Engage in symbolic act": [],
+        "Make empathetic comment": [],
+        "Express accord": []
+    },
+    "Make an appeal or request": {
+        "Appeal for material cooperation": [
+            "Appeal for economic cooperation",
+            "Appeal for military cooperation",
+            "Appeal for judicial cooperation",
+            "Appeal for intelligence"
+        ],
+        "Appeal for diplomatic cooperation (such as policy support)": [],
+        "Appeal for material aid": [
+            "Appeal for economic aid",
+            "Appeal for military aid",
+            "Appeal for humanitarian aid",
+            "Appeal for military protection or peacekeeping"
+        ],
+        "Appeal for political reform": [
+            "Appeal for leadership change",
+            "Appeal for policy change",
+            "Appeal for rights",
+            "Appeal for change in institutions, regime"
+        ],
+        "Appeal to yield": [
+            "Appeal for easing of administrative sanctions",
+            "Appeal for easing of political dissent",
+            "Appeal for release of persons or property",
+            "Appeal for easing of economic sanctions, boycott, or embargo",
+            "Appeal to allow international involvement (non-mediation)",
+            "Appeal for de-escalation of military engagement"
+        ],
+        "Appeal to others to meet or negotiate": [],
+        "Appeal to others to settle dispute": [],
+        "Appeal to others to engage in or accept mediation": []
+    },
+    "Express intent to cooperate": {
+        "Express intent to engage in material cooperation": [
+            "Express intent to cooperate economically",
+            "Express intent to cooperate militarily",
+            "Express intent to cooperate on judicial matters",
+            "Express intent to cooperate on intelligence"
+        ],
+        "Express intent to engage in diplomatic cooperation (such as policy support)": [],
+        "Express intent to provide material aid": [
+            "Express intent to provide economic aid",
+            "Express intent to provide military aid",
+            "Express intent to provide humanitarian aid",
+            "Express intent to provide military protection or peacekeeping"
+        ],
+        "Express intent to institute political reform": [
+            "Express intent to change leadership",
+            "Express intent to change policy",
+            "Express intent to provide rights",
+            "Express intent to change institutions, regime"
+        ],
+        "Express intent to yield": [
+            "Express intent to ease administrative sanctions",
+            "Express intent to ease popular dissent",
+            "Express intent to release persons or property",
+            "Express intent to ease economic sanctions, boycott, or embargo",
+            "Express intent to allow international involvement (non-mediation)",
+            "Express intent to de-escalate military engagement"
+        ],
+        "Express intent to meet or negotiate": [],
+        "Express intent to settle dispute": [],
+        "Express intent to accept mediation": [],
+        "Express intent to mediate": []
+    },
+    "Consult": {
+        "Discuss by telephone": [],
+        "Make a visit": [],
+        "Host a visit": [],
+        "Meet at a third location": [],
+        "Engage in mediation": [],
+        "Engage in negotiation": []
+    },
+    "Engage in diplomatic cooperation": {
+        "Praise or endorse": [],
+        "Defend verbally": [],
+        "Rally support on behalf of": [],
+        "Grant diplomatic recognition": [],
+        "Apologize": [],
+        "Forgive": [],
+        "Sign formal agreement": []
+    },
+    "Engage in material cooperation": {
+        "Cooperate economically": [],
+        "Cooperate militarily": [],
+        "Engage in judicial cooperation": [],
+        "Share intelligence or information": []
+    },
+    "Provide aid": {
+        "Provide economic aid": [],
+        "Provide military aid": [],
+        "Provide humanitarian aid": [],
+        "Provide military protection or peacekeeping": [],
+        "Grant asylum": []
+    },
+    "Yield": {
+        "Ease administrative sanctions": [
+            "Ease restrictions on political freedoms",
+            "Ease ban on political parties or politicians",
+            "Ease curfew",
+            "Ease state of emergency or martial law"
+        ],
+        "Ease political dissent": [],
+        "Accede to requests or demands for political reform": [
+            "Accede to demands for change in leadership",
+            "Accede to demands for change in policy",
+            "Accede to demands for rights",
+            "Accede to demands for change in institutions, regime"
+        ],
+        "Return, release": [
+            "Return, release persons",
+            "Return, release property"
+        ],
+        "Ease economic sanction, boycott, or embargo": [],
+        "Allow international involvement": [
+            "Receive deployment of peacekeepers",
+            "Receive inspectors",
+            "Allow for humanitarian access"
+        ],
+        "De-escalate military engagement": [
+            "Declare truce, ceasefire",
+            "Ease military blockade",
+            "Demobilize armed forces",
+            "Retreat or surrender militarily"
+        ]
+    },
+    "Investigate": {
+        "Investigate crime, corruption": [],
+        "Investigate human rights abuses": [],
+        "Investigate military action": [],
+        "Investigate war crimes": []
+    },
+    "Demand": {
+        "Demand material cooperation": [
+            "Demand economic cooperation",
+            "Demand military cooperation",
+            "Demand judicial cooperation",
+            "Demand intelligence cooperation"
+        ],
+        "Demand for diplomatic cooperation (such as policy support)": [],
+        "Demand material aid": [
+            "Demand economic aid",
+            "Demand military aid",
+            "Demand humanitarian aid",
+            "Demand military protection or peacekeeping"
+        ],
+        "Demand political reform": [
+            "Demand leadership change",
+            "Demand policy change",
+            "Demand rights",
+            "Demand change in institutions, regime"
+        ],
+        "Demand that target yield": [
+            "Demand easing of administrative sanctions",
+            "Demand easing of political dissent",
+            "Demand release of persons or property",
+            "Demand easing of economic sanctions, boycott, or embargo",
+            "Demand to allow international involvement (non-mediation)",
+            "Demand de-escalation of military engagement"
+        ],
+        "Demand meeting, negotiation": [],
+        "Demand settling of dispute": [],
+        "Demand mediation": []
+    },
+    "Disapprove": {
+        "Criticize or denounce": [],
+        "Accuse": [
+            "Accuse of crime, corruption",
+            "Accuse of human rights abuses",
+            "Accuse of aggression",
+            "Accuse of war crimes",
+            "Accuse of espionage, treason"
+        ],
+        "Rally opposition against": [],
+        "Complain officially": [],
+        "Bring lawsuit against": [],
+        "Find guilty or liable (legally)": []
+    },
+    "Reject": {
+        "Reject material cooperation": [
+            "Reject economic cooperation",
+            "Reject military cooperation",
+            "Reject judicial cooperation",
+            "Reject intelligence cooperation"
+        ],
+        "Reject request or demand for material aid": [
+            "Reject request for economic aid",
+            "Reject request for military aid",
+            "Reject request for humanitarian aid",
+            "Reject request for military protection or peacekeeping"
+        ],
+        "Reject request or demand for political reform": [
+            "Reject request to change leadership",
+            "Reject request to change policy",
+            "Reject request for rights",
+            "Reject request for change in institutions, regime"
+        ],
+        "Refuse to yield": [
+            "Refuse to ease administrative sanctions",
+            "Refuse to ease popular dissent",
+            "Refuse to release persons or property",
+            "Refuse to ease economic sanctions, boycott, or embargo",
+            "Refuse to allow international involvement (non-mediation)",
+            "Refuse to de-escalate military engagement"
+        ],
+        "Reject proposal to meet, discuss, or negotiate": [],
+        "Reject mediation": [],
+        "Reject plan, agreement to settle dispute": [],
+        "Defy norms, law": [],
+        "Veto": []
+    },
+    "Threaten": {
+        "Threaten non-force": [
+            "Threaten to reduce or stop aid",
+            "Threaten to boycott, embargo, or sanction",
+            "Threaten to reduce or break relations"
+        ],
+        "Threaten with administrative sanctions": [
+            "Threaten with restrictions on political freedoms",
+            "Threaten to ban political parties or politicians",
+            "Threaten to impose curfew",
+            "Threaten to impose state of emergency or martial law"
+        ],
+        "Threaten political dissent, protest": [],
+        "Threaten to halt negotiations": [],
+        "Threaten to halt mediation": [],
+        "Threaten to halt international involvement (non-mediation)": [],
+        "Threaten with repression": [],
+        "Threaten with military force": [
+            "Threaten blockade",
+            "Threaten occupation",
+            "Threaten unconventional attack",
+            "Threaten conventional attack",
+            "Threaten unconventional mass violence"
+        ],
+        "Give ultimatum": []
+    },
+    "Engage in political dissent": {
+        "Demonstrate or rally": [
+            "Demonstrate or rally for leadership change",
+            "Demonstrate or rally for policy change",
+            "Demonstrate for rights",
+            "Demonstrate for change in institutions, regime"
+        ],
+        "Conduct hunger strike": [
+            "Conduct hunger strike for leadership change",
+            "Conduct hunger strike for policy change",
+            "Conduct hunger strike for rights",
+            "Conduct hunger strike for change in institutions, regime"
+        ],
+        "Conduct strike or boycott": [
+            "Conduct strike or boycott for leadership change",
+            "Conduct strike or boycott for policy change",
+            "Conduct strike or boycott for rights",
+            "Conduct strike or boycott for change in institutions, regime"
+        ],
+        "Obstruct passage, block": [
+            "Obstruct passage to demand leadership change",
+            "Obstruct passage to demand policy change",
+            "Obstruct passage to demand rights",
+            "Obstruct passage to demand change in institutions, regime"
+        ],
+        "Protest violently, riot": [
+            "Engage in violent protest for leadership change",
+            "Engage in violent protest to demand policy change",
+            "Engage in violent protest to demand rights",
+            "Engage in violent protest to demand change in institutions, regime"
+        ]
+    },
+    "Exhibit military or police power": {
+        "Increase police alert status": [],
+        "Increase military alert status": [],
+        "Mobilize or increase police power": [],
+        "Mobilize or increase armed forces": [],
+        "Mobilize or increase cyber-forces": []
+    },
+    "Reduce relations": {
+        "Reduce or break diplomatic relations": [],
+        "Reduce or stop material aid": [
+            "Reduce or stop economic assistance",
+            "Reduce or stop military assistance",
+            "Reduce or stop humanitarian assistance"
+        ],
+        "Impose embargo, boycott, or sanctions": [],
+        "Halt negotiations": [],
+        "Halt mediation": [],
+        "Expel or withdraw": [
+            "Expel or withdraw peacekeepers",
+            "Expel or withdraw inspectors, observers",
+            "Expel or withdraw aid agencies"
+        ]
+    },
+    "Coerce": {
+        "Seize or damage property": [
+            "Confiscate property",
+            "Destroy property"
+        ],
+        "Impose administrative sanctions": [
+            "Impose restrictions on political freedoms",
+            "Ban political parties or politicians",
+            "Impose curfew",
+            "Impose state of emergency or martial law"
+        ],
+        "Arrest, detain, or charge with legal action": [],
+        "Expel or deport individuals": [],
+        "Use tactics of violent repression": [],
+        "Attack cybernetically": []
+    },
+    "Use unconventional violence": {
+        "Abduct, hijack, take hostage": [],
+        "Physically assault": [
+            "Sexually assault",
+            "Torture",
+            "Kill by physical assault"
+        ],
+        "Conduct suicide, car, or other non-military bombing": [
+            "Carry out suicide bombing",
+            "Carry out vehicular bombing",
+            "Carry out roadside bombing",
+            "Carry out location bombing"
+        ],
+        "Use as human shield": [],
+        "Attempt to assassinate": [],
+        "Assassinate": []
+    },
+    "Use conventional military force": {
+        "Impose blockade, restrict movement": [],
+        "Occupy territory": [],
+        "Fight with small arms and light weapons": [],
+        "Fight with artillery and tanks": [],
+        "Employ aerial weapons": [
+            "Employ precision-guided aerial munitions",
+            "Employ remotely piloted aerial munitions"
+        ],
+        "Violate ceasefire": []
+    },
+    "Use unconventional mass force": {
+        "Engage in mass expulsion": [],
+        "Engage in mass killings": [],
+        "Engage in ethnic cleansing": [],
+        "Use weapons of mass destruction": [
+            "Use chemical, biological, or radiological weapons",
+            "Detonate nuclear weapons"
+        ]
+    }
+}
