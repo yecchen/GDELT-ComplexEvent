@@ -1,5 +1,5 @@
 # GDELT-ComplexEvent
-This is the code and data for the article [**"Structured, Complex and Time-complete Temporal Event Forecasting"**](https://arxiv.org/pdf/2312.01052.pdf) by Yunshan Ma, Chenchen Ye, Zijian Wu, Xiang Wang, Yixin Cao, Liang Pang, and Tat-Seng Chua.
+This is the code and data for the article **"Structured, Complex and Time-complete Temporal Event Forecasting"**.
 
 The repo includes:  
 1. An automated data construction pipeline for the Structured, Complex, and Time-complete Temporal Events (**SCTc-TE**).
