@@ -1,5 +1,5 @@
 # GDELT-ComplexEvent
-This is the code and data for the article **"Structured, Complex and Time-complete Temporal Event Forecasting"**.
+This is the code and data for the article **"SCTc-TE: A Comprehensive Formulation and Benchmark for Temporal Event Forecasting"**.
 
 The repo includes:  
 1. An automated data construction pipeline for the Structured, Complex, and Time-complete Temporal Events (**SCTc-TE**).
